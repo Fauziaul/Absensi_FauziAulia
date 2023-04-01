@@ -6,6 +6,6 @@ import android.os.Bundle
 class Beranda : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.tampilan_masuk)
+        setContentView(R.layout.activity_beranda)
     }
 }
