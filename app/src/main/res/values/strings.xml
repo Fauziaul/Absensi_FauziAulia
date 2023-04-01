@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Fingger</string>
+    <string name="textSilahkanRegistrasi">Silahkan Masuk Menggunakan Akun Yang Telah Disediakan Oleh Admin</string>
+    <string name="txtTittle">Data Absensi</string>
+    <string name="txtEmailInput">Masukkan Username</string>
+    <string name="email_Invalid">Masukkan Username</string>
+    <string name="txtPswInput">Password</string>
+    <string name="psw_Invalid">Masukkan Password</string>
+    <string name="btnSign">Login</string>
+
+
+    //Pada Menu Beranda
+    <string name="profil">Profil</string>
+    <string name="logout">Logout</string>
+    <string name="presensi">Presensi</string>
+    <string name="btnFiberHome">Fiber Home</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Riwayat</string>
+    <string name="title_notifications">Profile</string>
+
+
+</resources>
