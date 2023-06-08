@@ -7,7 +7,7 @@ class RetrofitClient {
 
     private fun getRetrofitClient(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("http://192.168.0.106/")
+            .baseUrl("http://192.168.0.118/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }

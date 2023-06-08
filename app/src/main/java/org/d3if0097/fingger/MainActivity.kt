@@ -44,24 +44,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-//        binding!!.btnSign.setOnClickListener { login() }
-//    }
-//
-//    private fun login() {
-//        Log.d("MainActivity", "Tombol diklik!")
-//        val username = binding!!.txtEmailInput.text.toString()
-//        if (TextUtils.isEmpty(username)) {
-//            Toast.makeText(this, R.string.email_Invalid, Toast.LENGTH_LONG).show()
-//            return
-//        }
-//        Log.d("MainActivity", "Tombol diklik!")
-//        val pasword = binding!!.txtPswInput.text.toString()
-//        if (TextUtils.isEmpty(pasword)) {
-//            Toast.makeText(this, R.string.psw_Invalid, Toast.LENGTH_LONG).show()
-//            return
-//        }
-//        getData()
-
 
     }
 
@@ -74,7 +56,7 @@ class MainActivity : AppCompatActivity() {
                 if (response.isSuccessful) {
                     if (response.body()?.response == true) {
                         binding!!.loading.visibility = View.GONE
-                        startActivity(Intent(this@MainActivity, Beranda::class.java))
+                        startActivity(Intent(this@MainActivity, MainActivity2::class.java))
                     } else {
                         binding!!.loading.visibility = View.GONE
                         Toast.makeText(
